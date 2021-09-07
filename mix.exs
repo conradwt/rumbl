@@ -5,7 +5,7 @@ defmodule Rumbl.MixProject do
     [
       app: :rumbl,
       version: "0.1.0",
-      elixir: "~> 1.12.0",
+      elixir: "~> 1.13.0-dev",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
@@ -33,7 +33,7 @@ defmodule Rumbl.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.5.9"},
+      {:phoenix, "~> 1.5.12"},
       {:phoenix_ecto, "~> 4.2.1"},
       {:ecto_sql, "~> 3.6.1"},
       {:postgrex, ">= 0.0.0"},
