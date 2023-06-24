@@ -5,7 +5,7 @@ defmodule Rumbl.MixProject do
     [
       app: :rumbl,
       version: "0.1.0",
-      elixir: "~> 1.14.4",
+      elixir: "~> 1.15.0",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
